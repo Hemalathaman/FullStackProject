@@ -1,0 +1,108 @@
+2023-02-28 09:36:04,951 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h37m33s127ms609µs400ns).
+2023-02-28 11:46:55,116 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-02-28 11:46:55,603 [INFO] org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2023-02-28 11:46:55,658 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-28 11:46:55,846 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-28 11:46:55,975 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-02-28 11:46:56,064 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-02-28 11:46:57,057 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] Starting OnlineMedicineShoppingSystemReviewApplication using Java 17.0.4.1 with PID 1424 (C:\Users\mhemala2\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\p\microservices\Project\OnlineMedicineShoppingSystem-Review\target\classes started by mhemala2 in C:\Users\mhemala2\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\p\microservices\Project\OnlineMedicineShoppingSystem-Review)
+2023-02-28 11:46:57,058 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-28 11:46:57,694 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-28 11:46:57,764 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-02-28 11:46:58,100 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8010 (http)
+2023-02-28 11:46:58,101 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-28 11:46:58,101 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-28 11:46:58,153 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-28 11:46:58,153 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1086 ms
+2023-02-28 11:46:58,257 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-28 11:46:58,268 [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-28 11:46:58,280 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-02-28 11:46:58,505 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1d85a61
+2023-02-28 11:46:58,506 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-02-28 11:46:58,548 [INFO] SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-28 11:46:58,641 [INFO] org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard [restartedMain] HHH000182: No default (no-argument) constructor for class: com.example.demo.entity.Reviews (class must be instantiated by Interceptor)
+2023-02-28 11:46:58,743 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-28 11:46:58,744 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-28 11:46:58,930 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-28 11:46:59,363 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-28 11:46:59,383 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8010 (http) with context path ''
+2023-02-28 11:46:59,398 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] Started OnlineMedicineShoppingSystemReviewApplication in 2.467 seconds (process running for 53376.59)
+2023-02-28 11:46:59,409 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-02-28 13:20:29,212 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] Starting OnlineMedicineShoppingSystemReviewApplication using Java 17.0.4.1 with PID 14320 (C:\Users\mhemala2\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\p\microservices\Project\OnlineMedicineShoppingSystem-Review\target\classes started by mhemala2 in C:\Users\mhemala2\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\p\microservices\Project\OnlineMedicineShoppingSystem-Review)
+2023-02-28 13:20:29,215 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-28 13:20:29,396 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-28 13:20:29,397 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-28 13:20:30,797 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-28 13:20:30,961 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2023-02-28 13:20:32,675 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8010 (http)
+2023-02-28 13:20:32,700 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-28 13:20:32,701 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-28 13:20:32,865 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-28 13:20:32,866 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3468 ms
+2023-02-28 13:20:33,305 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-28 13:20:33,491 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-28 13:20:33,951 [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-28 13:20:34,177 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-02-28 13:20:34,603 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3752f995
+2023-02-28 13:20:34,606 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-02-28 13:20:34,679 [INFO] SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-28 13:20:36,253 [INFO] org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard [restartedMain] HHH000182: No default (no-argument) constructor for class: com.example.demo.entity.Reviews (class must be instantiated by Interceptor)
+2023-02-28 13:20:36,633 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-28 13:20:36,649 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-28 13:20:37,843 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-28 13:20:38,549 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-28 13:20:38,683 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8010 (http) with context path ''
+2023-02-28 13:20:38,709 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] Started OnlineMedicineShoppingSystemReviewApplication in 10.092 seconds (process running for 10.928)
+2023-02-28 14:10:17,822 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8010-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-28 14:10:17,846 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8010-exec-5] Initializing Servlet 'dispatcherServlet'
+2023-02-28 14:10:17,967 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8010-exec-5] Completed initialization in 119 ms
+2023-02-28 16:26:47,744 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m39s474ms628µs900ns).
+2023-02-28 18:26:44,155 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-02-28 18:26:45,213 [INFO] org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2023-02-28 18:26:45,407 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-28 18:26:45,868 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-28 18:26:46,232 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-02-28 18:26:46,319 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-02-28 18:26:47,276 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] Starting OnlineMedicineShoppingSystemReviewApplication using Java 17.0.4.1 with PID 14320 (C:\Users\mhemala2\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\p\microservices\Project\OnlineMedicineShoppingSystem-Review\target\classes started by mhemala2 in C:\Users\mhemala2\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\p\microservices\Project\OnlineMedicineShoppingSystem-Review)
+2023-02-28 18:26:47,277 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-28 18:26:48,469 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-28 18:26:48,553 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2023-02-28 18:26:49,522 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8010 (http)
+2023-02-28 18:26:49,525 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-28 18:26:49,527 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-28 18:26:49,802 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-28 18:26:49,807 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2515 ms
+2023-02-28 18:26:50,069 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-28 18:26:50,080 [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-28 18:26:50,181 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-02-28 18:26:50,729 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4ebd72c5
+2023-02-28 18:26:50,730 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-02-28 18:26:50,769 [INFO] SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-28 18:26:50,888 [INFO] org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard [restartedMain] HHH000182: No default (no-argument) constructor for class: com.example.demo.entity.Reviews (class must be instantiated by Interceptor)
+2023-02-28 18:26:51,011 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-28 18:26:51,012 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-28 18:26:51,646 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-28 18:26:52,175 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-28 18:26:52,222 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8010 (http) with context path ''
+2023-02-28 18:26:52,230 [INFO] com.example.demo.OnlineMedicineShoppingSystemReviewApplication [restartedMain] Started OnlineMedicineShoppingSystemReviewApplication in 5.133 seconds (process running for 18385.018)
+2023-02-28 18:26:52,261 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-02-28T18:26:53.002+05:30  INFO 25852 --- [main] c.e.d.s.MedicineReviewServiceImplTest    : Starting MedicineReviewServiceImplTest using Java 17.0.4.1 with PID 25852 (started by mhemala2 in C:\Users\mhemala2\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\p\microservices\Project\OnlineMedicineShoppingSystem-Review)
+2023-02-28T18:26:53.007+05:30  INFO 25852 --- [main] c.e.d.s.MedicineReviewServiceImplTest    : No active profile set, falling back to 1 default profile: "default"
+2023-02-28T18:26:55.382+05:30  INFO 25852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-28T18:26:55.609+05:30  INFO 25852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 185 ms. Found 1 JPA repository interfaces.
+2023-02-28T18:26:57.312+05:30  INFO 25852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-28T18:26:57.569+05:30  INFO 25852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-28T18:26:58.241+05:30  WARN 25852 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-28T18:26:58.921+05:30  INFO 25852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-28T18:26:59.893+05:30  INFO 25852 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ae924f1
+2023-02-28T18:26:59.901+05:30  INFO 25852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-28T18:27:00.051+05:30  INFO 25852 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-28T18:27:02.602+05:30  INFO 25852 --- [main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.example.demo.entity.Reviews (class must be instantiated by Interceptor)
+2023-02-28T18:27:03.214+05:30  INFO 25852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-28T18:27:03.237+05:30  INFO 25852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-28T18:27:06.006+05:30  WARN 25852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-28T18:27:07.780+05:30  INFO 25852 --- [main] c.e.d.s.MedicineReviewServiceImplTest    : Started MedicineReviewServiceImplTest in 16.838 seconds (process running for 22.878)
+2023-02-28T18:27:10.010+05:30  INFO 25852 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-28T18:27:10.023+05:30  INFO 25852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-28T18:27:10.063+05:30  INFO 25852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-28 21:41:26,022 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h9m33s992ms483µs100ns).
